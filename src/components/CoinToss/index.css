@@ -1,0 +1,98 @@
+.coin-toss-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.coin-toss-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+  padding: 36px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  border-radius: 8px;
+  margin-top: 82px;
+  margin-bottom: 42px;
+  background-color: #ffffff;
+}
+.game-header {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #a35200;
+}
+.toss-results-para {
+  font-size: 15px;
+  font-weight: 500;
+  color: #334155;
+  font-family: 'Roboto';
+}
+.result-image {
+  width: 180px;
+  height: 180px;
+}
+.coin-button {
+  font-family: 'Roboto';
+  background-color: #f9d423;
+  color: #a35200;
+  outline: none;
+  border: none;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.result-para {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 400;
+}
+.tail-para {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .coin-toss-card {
+    width: 75%;
+    max-width: 755px;
+    padding: 45px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    border: 13px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+  }
+  .game-header {
+    font-size: 48px;
+  }
+  .toss-results-para {
+    font-size: 26px;
+  }
+  .result-image {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .coin-button {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: 500;
+  }
+  .result-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  .result-para {
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+}
